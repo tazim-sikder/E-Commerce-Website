@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ljkJG7WCXNWxoEs9KM7jSFKzTWoVTOS/lsTpAl2q9O0IHpodogovzN9hCa3gu9WWOuacyGLzsyj3CsjDspmSdA==",
+  "dgSpecHash": "oe9Wr0G2x6NQOA/ZDQnHXXsFbXZ7UpZffuJb/hVrzpNS0xJ6x/kGlZoBofHNZ6YHQ3X1V593muqVGRUa9qkSUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\XPROG\\OneDrive\\Desktop\\Projects\\E-Commerce\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\XPROG\\OneDrive\\Desktop\\Projects\\E-Commerce Website\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\XPROG\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\XPROG\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",

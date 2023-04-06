@@ -1719,11 +1719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\XPROG\\OneDrive\\Desktop\\Projects\\E-Commerce\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\XPROG\\OneDrive\\Desktop\\Projects\\E-Commerce Website\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\XPROG\\OneDrive\\Desktop\\Projects\\E-Commerce\\API\\API.csproj",
+      "projectPath": "C:\\Users\\XPROG\\OneDrive\\Desktop\\Projects\\E-Commerce Website\\API\\API.csproj",
       "packagesPath": "C:\\Users\\XPROG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\XPROG\\OneDrive\\Desktop\\Projects\\E-Commerce\\API\\obj\\",
+      "outputPath": "C:\\Users\\XPROG\\OneDrive\\Desktop\\Projects\\E-Commerce Website\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\XPROG\\AppData\\Roaming\\NuGet\\NuGet.Config"
