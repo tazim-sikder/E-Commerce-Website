@@ -55,7 +55,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
                 component={NavLink} to={path} key={path}
                 sx={{
                   color: "inherit",
-                  typography: "h6",
+                  typography: "h7",
                   "&:hover": {
                     color: "grey.500",
                   },
@@ -88,7 +88,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
             </List>
           </Box>
         </Toolbar>
-      </AppBar>
+      </AppBar>      
     </>
   );
 }
