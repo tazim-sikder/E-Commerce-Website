@@ -1,35 +1,35 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Middleware
 {
     public class ExceptionMiddleware
     {
-        readonly RequestDelegate _next;
-        readonly ILogger<ExceptionMiddleware> _logger;
-        readonly IHostEnvironment _env;
-
+        private readonly RequestDelegate _next;
+        private readonly ILogger<ExceptionMiddleware> _logger;
+        private readonly IHostEnvironment _env;
         public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger, 
-               IHostEnvironment env)
+            IHostEnvironment env)
         {
             _env = env;
-            _next = next;
             _logger = logger;
+            _next = next;
         }
-        public async Task InvokeAsync(HttpContext context) {
-            try{
+
+        public async Task InvokeAsync(HttpContext context)
+        {
+            try
+            {
                 await _next(context);
             }
-            catch(Exception ex) {
+            catch (Exception ex)
+            {
                 _logger.LogError(ex, ex.Message);
                 context.Response.ContentType = "application/json";
                 context.Response.StatusCode = 500;
 
-                var response = new ProblemDetails {
+                var response = new ProblemDetails
+                {
                     Status = 500,
                     Detail = _env.IsDevelopment() ? ex.StackTrace?.ToString() : null,
                     Title = ex.Message
